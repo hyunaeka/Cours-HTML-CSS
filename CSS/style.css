@@ -14,7 +14,7 @@ p
 {
     font-size: 14px; /* ceci est une note */
     color: blue;
-    font-family: '3dumbregular';
+    font-family: '3dumbregular', Arial;
 }
 h1
 {
