@@ -21,11 +21,16 @@ p
 p{
 	font-family: '3dumbregular',Arial;
     color: white;
+    border-top: 3px blue dotted;
 }
 h1
 {
     font-size: 40px; 
     color: white;
+    border: 3px blue solid;
+    border-radius:20px/10px;
+    box-shadow:6px 6px 10px blue;
+    text-shadow:6px 6px 10px blue;
     background-image: url("https://cdn.pixabay.com/photo/2016/04/06/08/50/gears-1311171_960_720.jpg")
 
 }
