@@ -26,6 +26,7 @@ h1
 body{
 	
 	 background-image: url("images/paysage.jpg");
+	 background-attachment: fixed; /* Le fond restera fixe */
 }
 
 mark
