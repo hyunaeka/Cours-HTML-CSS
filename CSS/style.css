@@ -13,8 +13,14 @@
 p
 {
     font-size: 14px; /* ceci est une note */
+    background-color: black;
+    opacity: 0.3;
+    
+}
+
+p{
+	font-family: '3dumbregular',Arial;
     color: white;
-    font-family: Arial;
 }
 h1
 {
