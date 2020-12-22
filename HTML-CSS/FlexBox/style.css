@@ -1,30 +1,8 @@
-h1,h2{
-
-	text-align: center;
-	background-color: #CCC;
-	width: 250px;
-	border: 2px dashed purple;
-	text-shadow: 2px 2px 6px blue;
-	margin: auto;
-	padding: 20px;
-
-	
-}
-
-p{
-	width: 350px;
-	height: 110px;
-	border: 1px solid black;
-	text-align: justify;
-	margin: auto;
-	padding: 10px;
-	overflow: scroll;
-}
-
-
 #conteneur
 {
+	display: flex;
     border:2px solid #444;
+
 }
 
 .element
@@ -37,18 +15,21 @@ p{
   .element:nth-child(2) /* On prend le deuxième bloc élément */
 {
     background-color: blue;
-    align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+    order: 3;
 }
 
 
  .element:nth-child(3) /* On prend le deuxième bloc élément */
 {
     background-color: green;
+    order: 1;
+    flex: 1;
     
 }
 
  .element:nth-child(1) /* On prend le deuxième bloc élément */
 {
     background-color: purple;
+    order: 2;
     
 }
